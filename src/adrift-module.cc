@@ -1,6 +1,6 @@
 #include "adrift-module.hh"
 
-adrift_module::adrift_module() : Module() {
+adrift_module::adrift_module() : engine::Module() {
   config(NUM_PARAMS, NUM_INPUTS, NUM_OUTPUTS, NUM_LIGHTS);
   configParam(adrift_module::P_ATTENUATOR, -1.0, 1.0, 0.0, "");
   for (size_t i = 0; i < adrift_module::channels; i++) {

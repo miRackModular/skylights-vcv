@@ -35,7 +35,7 @@ void turing_vactrol_module::process(const ProcessArgs &args) {
   }
 }
 
-turing_vactrol_module::turing_vactrol_module() : Module() {
+turing_vactrol_module::turing_vactrol_module() : engine::Module() {
   config(NUM_PARAMS, NUM_INPUTS, NUM_OUTPUTS, NUM_LIGHTS);
 
   for (size_t i = 0; i < 8; i++) {

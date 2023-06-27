@@ -44,7 +44,7 @@ void turing_pulse_module::process(const ProcessArgs &args) {
   lights[L_GATE1P2P4P7].value = outputs[O_GATE1P2P4P7].value;
 }
 
-turing_pulse_module::turing_pulse_module() : Module() {
+turing_pulse_module::turing_pulse_module() : engine::Module() {
   config(NUM_PARAMS, NUM_INPUTS, NUM_OUTPUTS, NUM_LIGHTS);
 }
 

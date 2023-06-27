@@ -38,7 +38,7 @@ void whatnote_module::process(const ProcessArgs &args) {
 }
 
 whatnote_module::whatnote_module()
-    : Module(), octave(0), semitone(0), cents(0), voltage(0) {
+    : engine::Module(), octave(0), semitone(0), cents(0), voltage(0) {
   config(NUM_PARAMS, NUM_INPUTS, NUM_OUTPUTS, NUM_LIGHTS);
 }
 

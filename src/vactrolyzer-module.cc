@@ -8,7 +8,7 @@ void vactrolyzer_module::process(const ProcessArgs &args) {
   }
 }
 
-vactrolyzer_module::vactrolyzer_module() : Module() {
+vactrolyzer_module::vactrolyzer_module() : engine::Module() {
   config(NUM_PARAMS, NUM_INPUTS, NUM_OUTPUTS, NUM_LIGHTS);
   onSampleRateChange();
 }

@@ -1,7 +1,7 @@
 {
   "slug": "Skylights",
   "name": "Skylights",
-  "brand": "Skrylar",
+  "brand": "Skylights",
   "version": "1.0.2",
   "license": "GPL-3.0",
   "author": "Skrylar",
@@ -14,7 +14,7 @@
   "modules": [
     {
       "slug": "SkAdrift",
-      "name": "Adrift (Analogue Drift)",
+      "name": "Adrift",
       "description": "Randomized Sample and Hold, simulates minor analogue drift",
       "tags": [
         "Sample and hold"
@@ -22,7 +22,7 @@
     },
     {
       "slug": "SkTuringV2",
-      "name": "Alan (Turing Machine)",
+      "name": "Alan",
       "description": "A Whitwell turing machine.",
       "tags": [
         "Sequencer"
@@ -30,7 +30,7 @@
     },
     {
       "slug": "SkTuringPulse",
-      "name": "Alan (Pulse Expander)",
+      "name": "Alan - Pulse Expander",
       "description": "Turing Machine pulse expander",
       "tags": [
         "Utility"
@@ -38,7 +38,7 @@
     },
     {
       "slug": "SkTuringVolts",
-      "name": "Alan (Volts Expander)",
+      "name": "Alan - Volts Expander",
       "description": "Turing Machine volts expander",
       "tags": [
         "Utility"
@@ -46,7 +46,7 @@
     },
     {
       "slug": "SkTuringVactrol",
-      "name": "Alan (Digital Mix Expander)",
+      "name": "Alan - Digital Mix Expander",
       "description": "A vactrol mix expander using digital signal attenuation.",
       "tags": [
         "Utility"
@@ -54,7 +54,7 @@
     },
     {
       "slug": "SkTuringVactrolAnalogue",
-      "name": "Alan (Vactrol Mix Expander)",
+      "name": "Alan - Vactrol Mix Expander",
       "description": "A vactrol mix expander using an emulated vactrol chip.",
       "tags": [
         "Utility"
